@@ -43,7 +43,7 @@ public class MinesweeperSolution {
 					mtemp++;
 				}
 			}
-			doWork(n,m);
+			traverseGrid(n,m);
 			sendOutput(fieldNum);
 			fieldNum++;
 		}
@@ -64,7 +64,7 @@ public class MinesweeperSolution {
 	}
 	//Change in repo
 	//Find mines in the 2D array
-	private static void doWork(int n, int m) {
+	private static void traverseGrid(int n, int m) {
 		if (inputArray.length > 0) {
 			outputArray = new String[n][m];
 			for (int i = 0;i < n;i++) {
