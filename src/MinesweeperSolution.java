@@ -62,7 +62,7 @@ public class MinesweeperSolution {
 			fout.println();
 		}
 	}
-	
+	//Change in repo
 	//Find mines in the 2D array
 	private static void doWork(int n, int m) {
 		if (inputArray.length > 0) {
