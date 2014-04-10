@@ -63,7 +63,7 @@ public class MinesweeperSolution {
 		}
 	}
 	//Change in repo
-	//Find mines in the 2D array
+	//Traverse 2d array, and build output array
 	private static void traverseGrid(int n, int m) {
 		if (inputArray.length > 0) {
 			outputArray = new String[n][m];
